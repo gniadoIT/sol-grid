@@ -1,45 +1,45 @@
 names = [
     "Mateusz Roszkowski redbull",
-    "Szymon Puchyrski haas",
-    "Krystian Michalczuk haas",
-    "Kacper Zabagło mercedes",
-    "Kamil Stachura redbull",
-    "Kamil Dziuk renault",
-    "Sebastian Ocimek mclaren",
-    "Andrzej Magiera-Gorzka racingpoint",
-    "Jakub Zimmer ferrari",
+    "Szymon Grzybowski haas",
+    "Krystian Marczak haas",
+    "Kacper Zimmer merc",
+    "Kamil Szlosek redbull",
+    "Kamil Wiatr alpine",
+    "Sebastian Nakonieczny mcl",
+    "Andrzej Magiera-Gorzka aston",
+    "Jakub Michalczuk ferrari",
     "Mateusz Zieliński ferrari",
-    "Patryk Janusiewicz alphatauri",
-    "Krzysztof Winikajtys mercedes",
-    "Kamil Kubów williams",
-    "Kasper Pałka williams",
-    "Przemysław Dubowski renault",
-    "Piotr Czerniawski alfaromeo",
-    "Kryspin Słomiński racingpoint",
-    "Wojtek Grzybowski alphatauri",
-    "Filip Siudak alfaromeo",
-    "Szymon Kulik mclaren"
+    "Patryk Zawistowski at",
+    "Krzysztof Puchyrski merc",
+    "Kamil Duniec williams",
+    "Kasper Pałka alfa",
+    "Przemysław Krutul alpine",
+    "Piotr Ciastek alfa",
+    "Kryspin Bluszcz aston",
+    "Wojtek Stachura at",
+    "Filip Wadolowski alfa",
+    "Szymon Morawiak mcl"
 ];
 
 grid = [
-    "Michalczuk",
-    "Kulik",
-    "Siudak",
-    "Dubowski",
-    "Pałka",
-    "Janusiewicz",
-    "Kubów",
-    "Dubowski",
-    "Czerniawski",
-    "Słomiński",
-    "Grzybowski",
-    "Zieliński",
-    "Zimmer",
-    "Magiera-Gorzka",
-    "Ocimek",
-    "Dziuk",
-    "Stachura",
-    "Zabagło",
-    "Puchyrski",
-    "Roszkowski"
+    "Morawiak",//1
+    "Wadolowski",//2
+    "Stachura",//3
+    "Bluszcz",//4
+    "Ciastek",//5
+    "Krutul",//6
+    "Pałka",//7
+    "Duniec",//8
+    "Puchyrski",//9
+    "Zawistowski",//10
+    "Zieliński",//11
+    "Michalczuk",//12
+    "Magiera-Gorzka",//13
+    "Nakonieczny",//14
+    "Wiatr",//15
+    "Szlosek",//16
+    "Zimmer",//17
+    "Marczak",//18
+    "Grzybowski",//19
+    "Roszkowski"//20
 ];
