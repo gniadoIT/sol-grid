@@ -1,0 +1,124 @@
+@font-face {
+    font-family: Formula1font; src: url('../fonts/Formula1-Regular.ttf');
+}
+
+html {
+    background-color: green;
+    font-family: Formula1font, sans-serif;
+}
+
+.gridplace {
+    width: 100px;
+    height: 65px;
+    margin: 25px;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+}
+
+.gridplace .driver {
+    display:none;
+    border: 1px solid white;
+    border-bottom: none;
+    margin: 5px;
+    padding-top: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+}
+
+.column{
+    float:left;
+    margin:5px;
+}
+
+.grid{
+    position:relative;
+    top:32px;
+}
+
+.teamLogo {
+    margin-left: -5px;
+    margin-right: -5px;
+    width:530px;
+    position:relative;
+    top: -420px;
+    display:none;
+}
+
+.emptyTeam {
+    margin-left: -5px;
+    margin-right: -5px;
+    width:530px;
+    position:relative;
+    top: -420px;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.even{
+    position: relative;
+    top: 40px;
+}
+
+.black {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    position: absolute;
+    top: 8px;
+    left: 473px;
+    width: 400px;
+    height: 50px;
+    text-align: center;
+    z-index: 1;
+    border-bottom-right-radius: 25px;
+}
+
+.black p {
+    font-size: 26px;
+    top: -16px;
+    position: relative;
+}
+
+.container{
+    background-color: rgba(30, 30, 30, 0.7);
+    height: 515px;
+    width: 1373px;
+    border-bottom-right-radius: 50px;
+    overflow: hidden;
+    display:none;
+}
+
+.startpos{
+    background-color: #333333;
+    width: 500px;
+    height: 150px;
+    border-bottom-right-radius: 44px;
+    border-top: 10px solid red;
+    text-align: center;
+    top: 350px;
+    left: 532px;
+    position: absolute;
+    display:none;
+}
+
+.poz{
+    padding-top: 103px;
+    top:-4px;
+    position: relative;
+    color: white;
+    font-size: 64px;
+}
+
+.left img {
+    -webkit-mask-image: linear-gradient(to right, black 200px, transparent 500px);
+    mask-image: linear-gradient(to right, black 200px, transparent 500px);
+}
+
+.right  img {
+    -webkit-mask-image: linear-gradient(to left, black 200px, transparent 500px);
+    mask-image: linear-gradient(to left, black 200px, transparent 500px);
+}
