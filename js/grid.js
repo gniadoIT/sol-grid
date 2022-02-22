@@ -16,7 +16,7 @@ function printRow(rowNum){
     setTimeout(function () {
         doLeft(rowNum);
         doRight(rowNum);
-        if (rowNum > 3 && rowNum < 9){
+        if (rowNum > 3 && rowNum < 9) {
             move();
         }
         if (rowNum > 3 && rowNum < 9) {
