@@ -3,7 +3,7 @@
 }
 
 html {
-    background-color: green;
+    background: rgba(0,0,0,0);
     font-family: Formula1font, sans-serif;
 }
 
@@ -38,17 +38,11 @@ html {
 }
 
 .teamLogo {
-    /*margin-left: -5px;
-    margin-right: -5px;
-    width:530px;
-    position:relative;
-    top: -420px;
-    display:none;*/
     margin-left: -5px;
     margin-right: -5px;
     width: 530px;
     position: relative;
-    top: -145px;
+    top: -138px;
     display:none;
 }
 
@@ -74,13 +68,11 @@ html {
     color: white;
     display: inline-block;
     position: absolute;
-    top: 8px;
     left: 473px;
     width: 400px;
     height: 50px;
     text-align: center;
     z-index: 1;
-    border-bottom-right-radius: 25px;
 }
 
 .black p {
@@ -96,6 +88,9 @@ html {
     border-bottom-right-radius: 50px;
     overflow: hidden;
     display:none;
+    position:relative;
+    top: 150px;
+    left: 50px;
 }
 
 .startpos{
@@ -105,8 +100,8 @@ html {
     border-bottom-right-radius: 44px;
     border-top: 10px solid red;
     text-align: center;
-    top: 350px;
-    left: 532px;
+    top: 315px;
+    left: 485px;
     position: absolute;
     display:none;
 }
@@ -136,7 +131,7 @@ html {
     text-align: center;
     font-size: 32px;
     color: white;
-    text-shadow: 2px 2px black;
+    text-shadow: 4px 0 0 black, -4px 0 0 black, 0 4px 0 black, 0 -4px 0 black, 3px 3px black, -3px -3px black, 3px -3px black, -3px 3px black, 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
 }
 
 #rightDriver {
@@ -153,7 +148,7 @@ html {
     top: -700px;
     font-size: 84px;
     color: red;
-    text-shadow: 3px 3px black;
+    text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
     text-align: center;
 }
 
@@ -193,4 +188,47 @@ html {
 
 #rightLogo {
     left: 260px;
+}
+
+.shade{
+    top: -885px;
+    width: 365px;
+}
+
+.borderup {
+    display:none;
+    letter-spacing: -1px;
+    font-weight: bolder;
+    position: fixed;
+    z-index: 1;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    border-right: 2px solid white;
+    padding: 6px 14px;
+    height: 69px;
+    left: 45px;
+    top: 75px;
+    font-size: 40px;
+    color: white;
+    background-color: rgba(30, 30, 30, 0.7);
+}
+
+.borderleft {
+    display:none;
+    position: fixed;
+    border-left: 2px solid white;
+    padding-left: 11px;
+    height: 515px;
+    left: 45px;
+    top: 158px;
+    font-size: 34px;
+    background-color: rgba(30, 30, 30, 0.7);
+}
+
+.roundName {
+    font-size: 24px;
+    top: -24px;
+    position: relative;
 }

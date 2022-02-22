@@ -6,9 +6,12 @@
     <link rel="stylesheet" href="css/1.css"/>
     <link rel="stylesheet" href="css/teams.css"/>
     <script src="js/jquery.min.js"></script>
+    <script src="js/functions.js"></script>
     <script src="js/settings.js"></script>
     <script src="js/vars.js"></script>
     <script src="js/drivers.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/drawing.js"></script>
     <script src="js/grid.js"></script>
 </head>
 <body>
@@ -17,6 +20,12 @@
         <span class="poz">POZYCJE STARTOWE</span>
     </div>
 
+    <div class="borderup">
+        <span id="leagueName"></span>
+        <span class="roundName"></span>
+    </div>
+    <div class="borderleft"></div>
+
     <div class="container">
         <div class="black"><p>POZYCJE STARTOWE</p></div>
         <div class="left team inline">
@@ -24,7 +33,7 @@
             <img src="img/teams/emptyteam.png" class="emptyTeam"/>
             <p class="driverName" id="leftDriver"></p>
             <p class="driverPlace" id="leftPlace"></p>
-            <img class="driverPhoto" id="leftPhoto" />
+            <img class="driverPhoto shade" id="leftPhoto" />
             <img class="driverLogo" id="leftLogo" />
         </div>
         <div id="grid" class="grid inline">
@@ -118,7 +127,7 @@
             <img src="img/teams/emptyteam.png" class="emptyTeam"/>
             <p class="driverName" id="rightDriver"></p>
             <p class="driverPlace" id="rightPlace"></p>
-            <img class="driverPhoto" id="rightPhoto" />
+            <img class="driverPhoto shade" id="rightPhoto" />
             <img class="driverLogo" id="rightLogo" />
         </div>
     </div>

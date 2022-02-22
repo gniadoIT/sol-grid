@@ -14,3 +14,9 @@ var inicjalizacja = 0.8;
 
 /* czas wyświetlania pojedynczego rzędu */
 var rzad = 2;
+
+/* nazwa ligi */
+var leagueName = "ŚCIGAŁKA ONLINE LEAGUE";
+
+/* nazwa rundy */
+var roundName = "RUNDA 15: OOREDOO QATAR GRAND PRIX 2021";

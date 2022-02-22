@@ -1,6 +1,6 @@
 names = [
     "Mateusz Roszkowski redbull",
-    "Szymon Grzybowski haas",
+    "Bartosz Gniado haas",
     "Krystian Marczak haas",
     "Kacper Zimmer merc",
     "Kamil Szlosek redbull",
@@ -40,6 +40,6 @@ grid = [
     "Szlosek",//16
     "Zimmer",//17
     "Marczak",//18
-    "Grzybowski",//19
+    "Gniado",//19
     "Roszkowski"//20
 ];
