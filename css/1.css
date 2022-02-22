@@ -34,15 +34,21 @@ html {
 
 .grid{
     position:relative;
-    top:32px;
+    top:33px;
 }
 
 .teamLogo {
-    margin-left: -5px;
+    /*margin-left: -5px;
     margin-right: -5px;
     width:530px;
     position:relative;
     top: -420px;
+    display:none;*/
+    margin-left: -5px;
+    margin-right: -5px;
+    width: 530px;
+    position: relative;
+    top: -145px;
     display:none;
 }
 
@@ -121,4 +127,70 @@ html {
 .right  img {
     -webkit-mask-image: linear-gradient(to left, black 200px, transparent 500px);
     mask-image: linear-gradient(to left, black 200px, transparent 500px);
+}
+
+.driverName {
+    display: block;
+    position: relative;
+    top: -610px;
+    text-align: center;
+    font-size: 32px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+#rightDriver {
+    left: 75px;
+}
+
+#leftDriver {
+    left: -70px;
+}
+
+.driverPlace {
+    display: block;
+    position: relative;
+    top: -700px;
+    font-size: 84px;
+    color: red;
+    text-shadow: 3px 3px black;
+    text-align: center;
+}
+
+#leftPlace {
+    left: -90px;
+}
+
+#rightPlace {
+    left: 90px;
+}
+
+.driverLogo {
+    display: block;
+    position: relative;
+    top: -1140px;
+    width: 180px;
+}
+
+.driverPhoto {
+    display: block;
+    position: relative;
+    top: -905px;
+    width: 380px;
+}
+
+#leftPhoto {
+    left: 205px;
+}
+
+#rightPhoto {
+    left: -55px;
+}
+
+#leftLogo {
+    left: 80px;
+}
+
+#rightLogo {
+    left: 260px;
 }
