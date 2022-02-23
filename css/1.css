@@ -7,6 +7,12 @@ html {
     font-family: Formula1font, sans-serif;
 }
 
+/*body {
+    height:1080px;
+    background-image: url(https://www.cyrkf1.pl/wp-content/uploads/2020/06/2019-Red-Bull-Ring-tor-Austria.jpg);
+    background-size: 120%;
+}*/
+
 .gridplace {
     width: 100px;
     height: 65px;
@@ -33,6 +39,7 @@ html {
 }
 
 .grid{
+    display:none;
     position:relative;
     top:33px;
 }
@@ -64,7 +71,7 @@ html {
 }
 
 .black {
-    background-color: black;
+    background-color: transparent;
     color: white;
     display: inline-block;
     position: absolute;
@@ -73,6 +80,7 @@ html {
     height: 50px;
     text-align: center;
     z-index: 1;
+    text-shadow: 1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
 }
 
 .black p {
@@ -83,7 +91,7 @@ html {
 
 .container{
     background-color: rgba(30, 30, 30, 0.7);
-    height: 515px;
+    height: 530px;
     width: 1373px;
     border-bottom-right-radius: 50px;
     overflow: hidden;
@@ -145,7 +153,7 @@ html {
 .driverPlace {
     display: block;
     position: relative;
-    top: -700px;
+    top: -678px;
     font-size: 84px;
     color: red;
     text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
@@ -153,82 +161,83 @@ html {
 }
 
 #leftPlace {
-    left: -90px;
+    left: -69px;
 }
 
 #rightPlace {
-    left: 90px;
+    left: 79px;
 }
 
 .driverLogo {
     display: block;
-    position: relative;
-    top: -1140px;
+    position: absolute;
+    top: 290px;
     width: 180px;
 }
 
 .driverPhoto {
-    display: block;
-    position: relative;
-    top: -905px;
-    width: 380px;
+display: block;
+position: relative;
+top: -905px;
+width: 380px;
 }
 
 #leftPhoto {
-    left: 205px;
+left: 205px;
 }
 
 #rightPhoto {
-    left: -55px;
+left: -55px;
 }
 
 #leftLogo {
-    left: 80px;
+left: 99px;
 }
 
 #rightLogo {
-    left: 260px;
+    left: 1098px;
 }
 
 .shade{
-    top: -885px;
-    width: 365px;
+top: -885px;
+width: 365px;
 }
 
 .borderup {
-    display:none;
-    letter-spacing: -1px;
-    font-weight: bolder;
-    position: fixed;
-    z-index: 1;
-    border-top: 2px solid white;
-    border-left: 2px solid white;
-    border-top-left-radius: 14px;
-    border-top-right-radius: 14px;
-    border-right: 2px solid white;
-    padding: 6px 14px;
-    height: 69px;
-    left: 45px;
-    top: 75px;
-    font-size: 40px;
-    color: white;
-    background-color: rgba(30, 30, 30, 0.7);
+display:none;
+letter-spacing: -1px;
+font-weight: bolder;
+position: fixed;
+z-index: 1;
+border-top: 2px solid white;
+border-left: 2px solid white;
+border-top-left-radius: 14px;
+border-top-right-radius: 14px;
+border-right: 2px solid white;
+padding: 6px 14px;
+height: 69px;
+left: 45px;
+top: 75px;
+font-size: 40px;
+color: white;
+background-color: rgba(30, 30, 30, 0.7);
+    text-shadow: 1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
 }
 
 .borderleft {
-    display:none;
-    position: fixed;
-    border-left: 2px solid white;
-    padding-left: 11px;
-    height: 515px;
-    left: 45px;
-    top: 158px;
-    font-size: 34px;
-    background-color: rgba(30, 30, 30, 0.7);
+display:none;
+position: fixed;
+border-left: 2px solid white;
+padding-left: 11px;
+height: 515px;
+left: 45px;
+top: 158px;
+font-size: 34px;
+background-color: rgba(30, 30, 30, 0.7);
 }
 
 .roundName {
-    font-size: 24px;
-    top: -24px;
-    position: relative;
+font-size: 24px;
+top: -24px;
+position: relative;
 }

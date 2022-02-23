@@ -56,7 +56,7 @@ function move(){
 }
 
 function hideRow(rowNum){
-    $(countLeft(rowNum)).hide();
-    $(countRight(rowNum)).hide();
+    hidePlace(countLeft(rowNum));
+    hidePlace(countRight(rowNum))
 }
 

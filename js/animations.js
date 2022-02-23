@@ -12,7 +12,10 @@ function hideStartPositions() {
 
 function showGrid() {
     setTimeout(function () {
-        $(".container").show(1500);
+        $(".container").show(1500, function(){
+            $(".grid").addClass("inline");
+            $(".black").addClass("inline");
+        });
         $("#leagueName").html(leagueName + "<br />");
         $(".roundName").html(roundName);
         $(".borderup").show(500);

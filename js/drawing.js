@@ -62,3 +62,8 @@ function setTeamBg(id, driver, firstRow){
         });
     }
 }
+
+function hidePlace(place) {
+    $(place).hide();
+    $(place + "n").hide();
+}
