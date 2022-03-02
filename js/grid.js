@@ -18,6 +18,7 @@ function printRow(rowNum){
         doRight(rowNum);
         if (rowNum > 3 && rowNum < 9) {
             move();
+            showRow(rowNum+2);
         }
         if (rowNum > 3 && rowNum < 9) {
             hideRow(rowNum - 3);
@@ -59,4 +60,11 @@ function hideRow(rowNum){
     hidePlace(countLeft(rowNum));
     hidePlace(countRight(rowNum))
 }
+
+function showRow(rowNum){
+    showPlace(countLeft(rowNum));
+    showPlace(countRight(rowNum));
+}
+
+
 

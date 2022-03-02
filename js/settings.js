@@ -13,7 +13,7 @@ var przerwa = 0.5;
 var inicjalizacja = 1;
 
 /* czas wyświetlania pojedynczego rzędu */
-var rzad = 200;
+var rzad = 3;
 
 /* nazwa ligi */
 var leagueName = "ŚCIGAŁKA ONLINE LEAGUE";

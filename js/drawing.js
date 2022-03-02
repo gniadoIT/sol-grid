@@ -28,6 +28,7 @@ function setLogo(id, driver){
 function setPhoto(id, driver){
     var driverName = removePolish(driver.name.toLowerCase());
     $(id).fadeOut(500, function () {
+        $(id).attr("src","");
         loadPhoto(driver.team + "_" + driverName, id);
         $(id).fadeIn(500);
     });
@@ -39,6 +40,7 @@ function loadPhoto(fileName, id) {
     xhr.onload = () => {
         if (xhr.status == 200) {
             $(id).attr("src", url);
+            $(id).removeClass("shade");
         } else {
             $(id).attr("src", "img/drivers/shade.png");
             $(id).addClass("shade");
@@ -66,4 +68,8 @@ function setTeamBg(id, driver, firstRow){
 function hidePlace(place) {
     $(place).hide();
     $(place + "n").hide();
+}
+
+function showPlace(place){
+    $(place + "n").show();
 }
