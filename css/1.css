@@ -49,7 +49,7 @@ html {
     margin-right: -5px;
     width: 530px;
     position: relative;
-    top: -138px;
+    top: -125px;
     display:none;
 }
 
@@ -91,7 +91,7 @@ html {
 
 .container{
     background-color: rgba(30, 30, 30, 0.7);
-    height: 530px;
+    height: 525px;
     width: 1373px;
     border-bottom-right-radius: 50px;
     overflow: hidden;
@@ -229,7 +229,7 @@ display:none;
 position: fixed;
 border-left: 2px solid white;
 padding-left: 11px;
-height: 515px;
+height: 525px;
 left: 45px;
 top: 158px;
 font-size: 34px;
