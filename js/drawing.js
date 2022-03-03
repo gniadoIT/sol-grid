@@ -6,7 +6,8 @@ function placeOnGrid(id, driver) {
 
 function setDriverName(id, driver){
     $(id).fadeOut(500, function(){
-        $(id).html(driver.fName + "<br />" + driver.name.toUpperCase());
+        driverName = driver.fName.charAt(0).toUpperCase() + driver.fName.slice(1);
+        $(id).html(driverName + "<br />" + driver.name.toUpperCase());
         $(id).fadeIn(500);
     })
 }

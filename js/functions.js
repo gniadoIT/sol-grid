@@ -1,7 +1,9 @@
 function fillDrivers(drivers) {
     names.forEach(function (name, index) {
+        console.log("adding driver " + name);
         names = name.split(" ");
-        drivers[index] = {fName: names[0], name: names[1], team: names[2], short: names[1].slice(0,3).toUpperCase()};
+        drivers[index] = {fName: names[0].toLowerCase(), name: names[1].toLowerCase(), team: names[2].toLowerCase(), short: names[1].slice(0,3).toUpperCase()};
+        console.log(JSON.stringify(drivers[index]));
     });
 }
 
@@ -39,7 +41,7 @@ function getTopProperty(id) {
 }
 
 function getDriver(gridPlace){
-    var name = grid[gridPlace];
+    var name = grid[gridPlace].toLowerCase();
     var toReturn;
     drivers.forEach(function(driver){
         if (driver.name === name) {
