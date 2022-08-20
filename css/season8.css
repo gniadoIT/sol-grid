@@ -1,0 +1,183 @@
+@font-face {
+    font-family: Bahnschrift; src: url('../fonts/BAHNSCHRIFT.TTF');
+}
+
+html {
+    font-family: Bahnschrift, sans-serif;
+    color: white;
+}
+
+body {
+    background-image: url(https://www.cyrkf1.pl/wp-content/uploads/2020/06/2019-Red-Bull-Ring-tor-Austria.jpg);
+}
+
+.container{
+    width: 1210px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.upperPanel {
+    background: rgba(0,0,0,0.6);
+    height: 95px;
+    padding-left: 30px;
+    margin-bottom: 6px;
+    border-bottom-right-radius: 15px;
+    font-size: 35pt;
+    display: flex;
+    align-items: center;
+    padding-right: 30px;
+    font-weight: 600;
+}
+
+.roundNo {
+    position: relative;
+    right: -396px;
+}
+
+.mainPanel {
+    background: rgba(0,0,0,0.6);
+    border-top-right-radius: 15px;
+    height: 560px;
+}
+
+.leftDriver {
+    display: inline-block;
+    width: 455px;
+    height: inherit;
+    background: linear-gradient(60deg, aqua, rgba(0,0,0,0) 62%); /*linear-gradient(53deg, cyan, rgba(0,0,0,0) 50%)*/
+}
+
+.driverFirstName {
+  position: relative;
+  font-size: 22px;
+    top: 72px;
+}
+
+.leftDriver .driverFirstName {
+    color:aqua;
+    text-align: right;
+    font-weight: bold;
+}
+
+.rightDriver .driverFirstName {
+    color:red;
+}
+
+.driverLastName {
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: 600;
+    font-stretch: semi-condensed;
+    position: relative;
+  top: -31px;
+}
+
+.leftDriver .driverLastName {
+  text-align: right;
+}
+
+.teamLogo {
+    width: 218px;
+    position: relative;
+    top: -23px;
+}
+
+.leftDriver .teamLogo {
+    left: 215px;
+}
+
+.rightDriver .teamLogo {
+    left: 21px;
+}
+
+.driverPlace {
+    font-size: 99px;
+    position: relative;
+    top: -58px;
+    font-weight: bold;
+}
+
+.leftDriver .driverPlace {
+    text-align: right;
+    right: 7px;
+}
+
+.rightDriver .driverPlace {
+    left: 2px;
+}
+
+.driverPhoto {
+      height: 650px;
+      position: relative;
+      top: -640px;
+}
+
+.leftDriver .driverPhoto {
+    left: -170px;
+}
+
+.rightDriver .driverPhoto {
+    left: 70px;
+}
+
+.grid {
+    display: inline-block;
+    width: 300px;
+    height: inherit;
+    top: -819px;
+    position: relative;
+    font-size: 20px;
+    font-weight:600;
+}
+
+.column {
+    display: inline-block;
+    position:relative;
+}
+
+.odd {
+    left: 43px;
+    top: -50px
+}
+
+.even {
+    float: right;
+    right: 43px;
+    top: -4px;
+}
+
+.gridplace {
+    margin-top: 40px;
+}
+
+.number {
+    text-align: center;
+}
+
+.driver {
+    border: 1px solid white;
+    border-bottom: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 4px;
+    font-weight: bold;
+    font-stretch: semi-condensed;
+}
+
+.rightDriver {
+    display: inline-block;
+    width: 455px;
+    border-top-right-radius: 15px;
+    height: inherit;
+    background:linear-gradient(300deg, red, rgba(0,0,0,0) 62%);
+}
+
+.grid .title {
+    font-size: 22px;
+    text-align: center;
+    position: relative;
+    top: -10px;
+}
