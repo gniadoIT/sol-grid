@@ -2,22 +2,22 @@ names = [
     "Kacper Zabagło redbull",
     "Mateusz Bajbak haas",
     "Mateusz Bluszcz haas",
-    "Kacper Zimmer merc",
+    "Kacper Zimmer mercedes",
     "Jakub Bohatyrewicz redbull",
     "Szymon Wiatr alpine",
-    "Kamil Stachura mcl",
-    "Krystian Michalczuk aston",
+    "Kamil Stachura mclaren",
+    "Krystian Michalczuk astonmartin",
     "Dominik Sozoniuk ferrari",
     "Maciej Ślusarczyk ferrari",
-    "Bartosz Szaliński at",
-    "Patryk Krutyj merc",
+    "Bartosz Szaliński alphatauri",
+    "Patryk Krutyj mercedes",
     "Seweryn Rubciak williams",
-    "Andrzej Magiera-Gorzka alfa",
+    "Andrzej Magiera-Gorzka alfaromeo",
     "Daniel Kensy alpine",
-    "Kacper Trzmiel alfa",
-    "Dawid Krutul aston",
-    "Bartosz Mikoda at",
-    "Maciej Śpiewak mcl",
+    "Kacper Trzmiel alfaromeo",
+    "Dawid Krutul astonmartin",
+    "Bartosz Mikoda alphatauri",
+    "Maciej Śpiewak mclaren",
     "Krystian Walter williams"
 ];
 
@@ -38,8 +38,8 @@ grid = [
     "Wiatr",//14
     "Bohatyrewicz",//15
     "zimmer",//16
-    "bluszcz",//17
-    "Bajbak",//18
-    "Zabagło",//19
+    "Bajbak",//17
+    "Zabagło",//18
+    "bluszcz",//19
     "Krutyj"//20
 ];

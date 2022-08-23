@@ -12,13 +12,13 @@ function hideStartPositions() {
 
 function showGrid() {
     setTimeout(function () {
-        $(".container").show(1500, function(){
-            $(".grid").addClass("inline");
-            $(".black").addClass("inline");
-        });
+        $(".container").show(1500);
         $("#leagueName").html(leagueName + "<br />");
-        $(".roundName").html(roundName);
-        $(".borderup").show(500);
-        $(".borderleft").show(500);
+        $(".roundNo").html(roundName);
     }, gridpause * 1000);
+    setTimeout(function () {
+        $("#leagueName").removeClass("transparent");
+        $(".roundNo").removeClass("transparent");
+    }, (gridpause*1000)+1500);
+
 }

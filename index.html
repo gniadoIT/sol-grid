@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>SOL Grid</title>
-    <link rel="stylesheet" href="css/1.css"/>
-    <link rel="stylesheet" href="css/teams.css"/>
+    <link rel="stylesheet" href="css/s8.css"/>
+    <link rel="stylesheet" href="css/teams-bg.css"/>
+    <link rel="stylesheet" href="css/teams-colors.css"/>
     <script src="js/jquery.min.js"></script>
+    <script src="js/colors.js"></script>
     <script src="js/functions.js"></script>
     <script src="js/settings.js"></script>
     <script src="js/vars.js"></script>
@@ -17,120 +19,119 @@
 <body>
 
     <div class="startpos">
-        <span class="poz">POZYCJE STARTOWE</span>
+        <span>POZYCJE STARTOWE</span>
     </div>
-
-    <div class="borderup">
-        <span id="leagueName"></span>
-        <span class="roundName"></span>
-    </div>
-    <div class="borderleft"></div>
 
     <div class="container">
-        <div class="black"><p>POZYCJE STARTOWE</p></div>
-        <div class="left team inline">
-            <img class="teamLogo" id="leftTeam"/>
-            <img class="emptyTeam"/>
-            <p class="driverName" id="leftDriver"></p>
-            <p class="driverPlace" id="leftPlace"></p>
-            <img class="driverPhoto shade" id="leftPhoto" />
-            <img class="driverLogo" id="leftLogo" />
+        <div class="upperPanel">
+            <img src="img/borders/upper_panel.png" style="position: absolute;">
+            <span id="leagueName" class="transparent"></span>
+            <span class="roundNo transparent"></span>
         </div>
-        <div id="grid" class="grid">
-            <div class="column">
-                <div class="gridplace">
-                    <div class="number" id="1n">1</div>
-                    <div class="driver" id="1"></div>
+        <div class="mainPanel">
+            <div class="leftDriver transparent" id="leftPanel">
+                <img class="teamBorder" id="leftTeamBorder"/>
+                <p class="driverFirstName" id="leftFirstName">LEAGUE</p>
+                <p class="driverLastName" id="leftLastName">Ścigałka Online</p>
+                <img class="teamLogo" id="leftLogo" src="img/logos/sol.png"/>
+                <p class="driverPlace transparent" id="leftPlace">&nbsp;</p>
+                <img class="driverPhoto" id="leftPhoto" src="img/drivers/shade.png"/>
+            </div><div class="grid">
+                <div class="title"><p>POZYCJE STARTOWE</p></div>
+                <div id="columnOdd" class="column odd">
+                    <div class="gridplace">
+                        <div class="number" id="1n">1</div>
+                        <div class="driver transparent" id="1">&nbsp;</div>
+                    </div>
+                    <div class="gridplace">
+                        <div class="number" id="3n">3</div>
+                        <div class="driver transparent" id="3">AAA</div>
+                    </div>
+                    <div class="gridplace">
+                        <div class="number" id="5n">5</div>
+                        <div class="driver transparent" id="5">AAA</div>
+                    </div>
+                    <div class="gridplace">
+                        <div class="number" id="7n">7</div>
+                        <div class="driver transparent" id="7">AAA</div>
+                    </div>
+                    <div class="gridplace">
+                        <div class="number" id="9n">9</div>
+                        <div class="driver transparent" id="9">AAA</div>
+                    </div>
+
+                    <div class="gridplace">
+                        <div class="number" id="11n">11</div>
+                        <div class="driver transparent" id="11">AAA</div>
+                    </div>
+                    <div class="gridplace">
+                        <div class="number" id="13n">13</div>
+                        <div class="driver transparent" id="13">AAA</div>
+                    </div>
+                    <div class="gridplace">
+                        <div class="number" id="15n">15</div>
+                        <div class="driver transparent" id="15">AAA</div>
+                    </div>
+                    <div class="gridplace">
+                        <div class="number" id="17n">17</div>
+                        <div class="driver transparent" id="17">AAA</div>
+                    </div>
+                    <div class="gridplace">
+                        <div class="number" id="19n">19</div>
+                        <div class="driver transparent" id="19">AAA</div>
+                    </div>
                 </div>
-                <div class="gridplace">
-                    <div class="number" id="3n">3</div>
-                    <div class="driver" id="3"></div>
+                <div id="columnEven" class="column even">
+                    <div class="gridplace">
+                        <div class="number" id="2n">2</div>
+                        <div class="driver transparent" id="2">AAA</div>
+                    </div>
+                    <div class="gridplace">
+                        <div class="number" id="4n">4</div>
+                        <div class="driver transparent" id="4">AAA</div>
+                    </div>
+                    <div class="gridplace">
+                        <div class="number" id="6n">6</div>
+                        <div class="driver transparent" id="6">AAA</div>
+                    </div>
+                    <div class="gridplace">
+                        <div class="number" id="8n">8</div>
+                        <div class="driver transparent" id="8">AAA</div>
+                    </div>
+                    <div class="gridplace">
+                        <div class="number" id="10n">10</div>
+                        <div class="driver transparent" id="10">AAA</div>
+                    </div>
+                    <div class="gridplace">
+                        <div class="number" id="12n">12</div>
+                        <div class="driver transparent" id="12">AAA</div>
+                    </div>
+                    <div class="gridplace">
+                        <div class="number" id="14n">14</div>
+                        <div class="driver transparent" id="14">AAA</div>
+                    </div>
+                    <div class="gridplace">
+                        <div class="number" id="16n">16</div>
+                        <div class="driver transparent" id="16">AAA</div>
+                    </div>
+                    <div class="gridplace">
+                        <div class="number" id="18n">18</div>
+                        <div class="driver transparent" id="18">AAA</div>
+                    </div>
+                    <div class="gridplace">
+                        <div class="number" id="20n">20</div>
+                        <div class="driver transparent" id="20">AAA</div>
+                    </div>
                 </div>
-                <div class="gridplace">
-                    <div class="number" id="5n">5</div>
-                    <div class="driver" id="5"></div>
-                </div>
-                <div class="gridplace">
-                    <div class="number" id="7n">7</div>
-                    <div class="driver" id="7"></div>
-                </div>
-                <div class="gridplace">
-                    <div class="number" id="9n">9</div>
-                    <div class="driver" id="9"></div>
-                </div>
-                <div class="gridplace">
-                    <div class="number" style="display:none;" id="11n">11</div>
-                    <div class="driver" id="11"></div>
-                </div>
-                <div class="gridplace">
-                    <div class="number" style="display:none;" id="13n">13</div>
-                    <div class="driver" id="13"></div>
-                </div>
-                <div class="gridplace">
-                    <div class="number" style="display:none;" id="15n">15</div>
-                    <div class="driver" id="15"></div>
-                </div>
-                <div class="gridplace">
-                    <div class="number" style="display:none;" id="17n">17</div>
-                    <div class="driver" id="17"></div>
-                </div>
-                <div class="gridplace">
-                    <div class="number" style="display:none;" id="19n">19</div>
-                    <div class="driver" id="19"></div>
-                </div>
+            </div><div class="rightDriver transparent" id="rightPanel">
+            <img class="teamBorder" id="rightTeamBorder"/>
+                <p class="driverFirstName" id="rightFirstName">Diverse Extreme Team</p>
+                <p class="driverLastName" id="rightLastName">Powered by</p>
+                <img class="teamLogo" id="rightLogo" src="img/logos/sol.png"/>
+                <p class="driverPlace transparent" id="rightPlace">&nbsp;</p>
+                <img class="driverPhoto" id="rightPhoto" src="img/drivers/shade.png"/>
             </div>
-            <div class="column even">
-                <div class="gridplace">
-                    <div class="number" id="2n">2</div>
-                    <div class="driver" id="2"></div>
-                </div>
-                <div class="gridplace">
-                    <div class="number" id="4n">4</div>
-                    <div class="driver" id="4"></div>
-                </div>
-                <div class="gridplace">
-                    <div class="number" id="6n">6</div>
-                    <div class="driver" id="6"></div>
-                </div>
-                <div class="gridplace">
-                    <div class="number" id="8n">8</div>
-                    <div class="driver" id="8"></div>
-                </div>
-                <div class="gridplace">
-                    <div class="number" id="10n">10</div>
-                    <div class="driver" id="10"></div>
-                </div>
-                <div class="gridplace">
-                    <div class="number" style="display:none;" id="12n">12</div>
-                    <div class="driver" id="12"></div>
-                </div>
-                <div class="gridplace">
-                    <div class="number" style="display:none;" id="14n">14</div>
-                    <div class="driver" id="14"></div>
-                </div>
-                <div class="gridplace">
-                    <div class="number" style="display:none;" id="16n">16</div>
-                    <div class="driver" id="16"></div>
-                </div>
-                <div class="gridplace">
-                    <div class="number" style="display:none;" id="18n">18</div>
-                    <div class="driver" id="18"></div>
-                </div>
-                <div class="gridplace">
-                    <div class="number" style="display:none;" id="20n">20</div>
-                    <div class="driver" id="20"></div>
-                </div>
-            </div>
-        </div>
-        <div class="right team inline">
-            <img class="teamLogo" id="rightTeam"/>
-            <img class="emptyTeam"/>
-            <p class="driverName" id="rightDriver"></p>
-            <p class="driverPlace" id="rightPlace"></p>
-            <img class="driverPhoto shade" id="rightPhoto" />
-            <img class="driverLogo" id="rightLogo" />
         </div>
     </div>
-
 </body>
 </html>

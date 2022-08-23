@@ -1,0 +1,119 @@
+.driverFirstName .mercedes {
+    color: #6CD3BF !important;
+}
+
+.driverFirstName .redbull {
+    color: #1E5BC6 !important;
+}
+
+.driverFirstName .ferrari {
+    color: #ED1C24 !important;
+}
+
+.driverFirstName .mclaren {
+    color: #F58020 !important;
+}
+
+.driverFirstName .alpine {
+    color: #2293D1 !important;
+}
+
+.driverFirstName .alphatauri {
+    color: #4E7C9B !important;
+}
+
+.driverFirstName .astonmartin {
+    color: #2D826D !important;
+}
+
+.driverFirstName .williams {
+    color: #37BEDD !important;
+}
+
+.driverFirstName .alfaromeo {
+    color: #B12039 !important;
+}
+
+.driverFirstName .haas {
+    color: #B6BABD !important;
+}
+
+.bg_mercedes_left{
+    background: url("../img/teams/mercedes_left.png");
+}
+
+.bg_mercedes_right{
+    background: url("../img/teams/mercedes_left.png");
+}
+
+.bg_redbull_left{
+    background: url("../img/teams/redbul_left.png");
+}
+
+.bg_redbull_right{
+    background: url("../img/teams/redbul_right.png");
+}
+
+.bg_ferrari_left{
+    background: url("../img/teams/ferrari_left.png");
+}
+
+.bg_ferrari_right{
+    background: url("../img/teams/ferrari_right.png");
+}
+
+.bg_mclaren_left{
+    background: url("../img/teams/mclaren_left.png");
+}
+
+.bg_mclaren_right{
+    background: url("../img/teams/mclaren_right.png");
+}
+
+.bg_alpine_left{
+    background: url("../img/teams/alpine_left.png");
+}
+
+.bg_alpine_right{
+    background: url("../img/teams/alpine_right.png");
+}
+
+.bg_alphatauri_left{
+    background: url("../img/teams/alphatauri_left.png");
+}
+
+.bg_alphatauri_right{
+    background: url("../img/teams/alphatauri_right.png");
+}
+
+.bg_astonmartin_left{
+    background: url("../img/teams/astonmartin_left.png");
+}
+
+.bg_astonmartin_right{
+    background: url("../img/teams/astonmartin_right.png");
+}
+
+.bg_williams_left{
+    background: url("../img/teams/williams_left.png");
+}
+
+.bg_williams_right{
+    background: url("../img/teams/williams_right.png");
+}
+
+.bg_alfaromeo_left{
+    background: url("../img/teams/alfaromeo_left.png");
+}
+
+.bg_alfaromeo_right{
+    background: url("../img/teams/alfaromeo_right.png");
+}
+
+.bg_haas_left{
+    background: url("../img/teams/haas_left.png");
+}
+
+.bg_haas_right{
+    background: url("../img/teams/haas_right.png");
+}

@@ -10,13 +10,13 @@ var pozycjestartowe = 1;
 var przerwa = 0.5;
 
 /* czas wyświetlania początkowego slajdu bez teamów */
-var inicjalizacja = 1;
+var inicjalizacja = 2;
 
 /* czas wyświetlania pojedynczego rzędu */
 var rzad = 1;
 
 /* nazwa ligi */
-var leagueName = "KACZMAREK JAK TESTUJE";
+var leagueName = "ŚCIGAŁKA ONLINE LEAGUE";
 
 /* nazwa rundy */
-var roundName = "Tqwerty 2021";
+var roundName = "RUNDA 9 - Uzbekistan";

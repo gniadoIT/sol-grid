@@ -4,25 +4,53 @@
 
 html {
     font-family: Bahnschrift, sans-serif;
-    color: white;
 }
 
 body {
     background-image: url(https://www.cyrkf1.pl/wp-content/uploads/2020/06/2019-Red-Bull-Ring-tor-Austria.jpg);
 }
 
+.transparent{
+    color: rgba(0, 0, 0, 0);
+}
+
+.startpos {
+    color: white;
+    width: 650px;
+    height: 180px;
+    background: rgba(0,0,0,0.6);
+    margin: auto;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    font-size: 44px;
+    text-align: center;
+    line-height: 180px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display:none;
+}
+
 .container{
+    color: white;
+    display:none;
     width: 1210px;
     margin: auto;
     overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .upperPanel {
-    background: rgba(0,0,0,0.6);
+    background: rgba(0,0,0,1);
     height: 95px;
     padding-left: 30px;
     margin-bottom: 6px;
     border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
     font-size: 35pt;
     display: flex;
     align-items: center;
@@ -31,13 +59,13 @@ body {
 }
 
 .roundNo {
-    position: relative;
-    right: -396px;
+    margin-left:auto;
 }
 
 .mainPanel {
-    background: rgba(0,0,0,0.6);
+    background: rgba(0,0,0,0.85);
     border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
     height: 560px;
 }
 
@@ -45,23 +73,17 @@ body {
     display: inline-block;
     width: 455px;
     height: inherit;
-    background: linear-gradient(60deg, aqua, rgba(0,0,0,0) 62%); /*linear-gradient(53deg, cyan, rgba(0,0,0,0) 50%)*/
 }
 
 .driverFirstName {
-  position: relative;
-  font-size: 22px;
+    position: relative;
+    font-size: 22px;
     top: 72px;
 }
 
 .leftDriver .driverFirstName {
-    color:aqua;
     text-align: right;
     font-weight: bold;
-}
-
-.rightDriver .driverFirstName {
-    color:red;
 }
 
 .driverLastName {
@@ -70,11 +92,11 @@ body {
     font-weight: 600;
     font-stretch: semi-condensed;
     position: relative;
-  top: -31px;
+    top: -31px;
 }
 
 .leftDriver .driverLastName {
-  text-align: right;
+    text-align: right;
 }
 
 .teamLogo {
@@ -96,6 +118,7 @@ body {
     position: relative;
     top: -58px;
     font-weight: bold;
+    color: white;
 }
 
 .leftDriver .driverPlace {
@@ -108,9 +131,9 @@ body {
 }
 
 .driverPhoto {
-      height: 650px;
-      position: relative;
-      top: -640px;
+    height: 650px;
+    position: relative;
+    top: -640px;
 }
 
 .leftDriver .driverPhoto {
@@ -125,10 +148,11 @@ body {
     display: inline-block;
     width: 300px;
     height: inherit;
-    top: -819px;
+    top: -790px;
     position: relative;
     font-size: 20px;
     font-weight:600;
+    overflow: hidden;
 }
 
 .column {
@@ -172,7 +196,6 @@ body {
     width: 455px;
     border-top-right-radius: 15px;
     height: inherit;
-    background:linear-gradient(300deg, red, rgba(0,0,0,0) 62%);
 }
 
 .grid .title {
@@ -180,4 +203,10 @@ body {
     text-align: center;
     position: relative;
     top: -10px;
+}
+
+.teamBorder {
+    position: absolute;
+    z-index: 1;
+    top: 16px;
 }

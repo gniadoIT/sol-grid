@@ -4,10 +4,21 @@ function placeOnGrid(id, driver) {
     $(id).fadeIn(1000);
 }
 
-function setDriverName(id, driver){
+function setDriverFirstName(id, driver){
     $(id).fadeOut(500, function(){
+        $(id).removeAttr("class");
+        $(id).addClass("driverFirstName");
+        $(id).addClass(driver.team);
+        $(id).attr("style", "color: " + driver.color);
         driverName = driver.fName.charAt(0).toUpperCase() + driver.fName.slice(1);
-        $(id).html(driverName + "<br />" + driver.name.toUpperCase());
+        $(id).html(driverName);
+        $(id).fadeIn(500);
+    })
+}
+
+function setDriverLastName(id, driver){
+    $(id).fadeOut(500, function(){
+        $(id).html(driver.name.toUpperCase());
         $(id).fadeIn(500);
     })
 }
@@ -52,18 +63,20 @@ function loadPhoto(fileName, id) {
 }
 
 
-function setTeamBg(id, driver, firstRow){
-    if (firstRow){
-        $(".emptyTeam").fadeOut(500, function(){
-            $(id).attr("src", "img/teams/" + driver.team + ".png");
-            $(id).fadeIn(500);
-        });
-    } else {
-        $(id).fadeOut(500, function(){
-            $(id).attr("src", "img/teams/" + driver.team + ".png");
-            $(id).fadeIn(500);
-        });
-    }
+function setTeamBg(id, driver, side){
+    $(id).fadeOut(500, function(){
+        $(id).removeAttr("class");
+        $(id).addClass(side + "Driver");
+        $(id).addClass("bg_" + driver.team + "_" + side);
+        $(id).fadeIn(500);
+    });
+}
+
+function setTeamBorder(id, driver, side){
+    $(id).fadeOut(500, function(){
+        $(id).attr("src", "img/borders/" + driver.team + side + ".png");
+        $(id).fadeIn(500);
+    });
 }
 
 function hidePlace(place) {

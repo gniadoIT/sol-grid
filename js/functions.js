@@ -2,7 +2,7 @@ function fillDrivers(drivers) {
     names.forEach(function (name, index) {
         console.log("adding driver " + name);
         names = name.split(" ");
-        drivers[index] = {fName: names[0].toLowerCase(), name: names[1].toLowerCase(), team: names[2].toLowerCase(), short: names[1].slice(0,3).toUpperCase()};
+        drivers[index] = {fName: names[0].toLowerCase(), name: names[1].toLowerCase(), team: names[2].toLowerCase(), short: names[1].slice(0,3).toUpperCase(), color: getColorByTeam(names[2].toLowerCase())};
         console.log(JSON.stringify(drivers[index]));
     });
 }
