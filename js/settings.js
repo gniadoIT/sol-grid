@@ -4,7 +4,7 @@
 var wstep = 2;
 
 /* czas wyświetlania slajdu pozycje startowe w sekundach */
-var pozycjestartowe = 1;
+var pozycjestartowe = 3;
 
 /* czas przerwy między pozycje startowe a załadowaniem grida */
 var przerwa = 0.5;
@@ -13,7 +13,7 @@ var przerwa = 0.5;
 var inicjalizacja = 2;
 
 /* czas wyświetlania pojedynczego rzędu */
-var rzad = 1;
+var rzad = 3;
 
 /* nazwa ligi */
 var leagueName = "ŚCIGAŁKA ONLINE LEAGUE";

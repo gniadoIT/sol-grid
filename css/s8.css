@@ -18,7 +18,7 @@ body {
     color: white;
     width: 650px;
     height: 180px;
-    background: rgba(0,0,0,0.6);
+    background: rgba(0,0,0,1);
     margin: auto;
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
@@ -30,6 +30,11 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     display:none;
+}
+
+.startpos span{
+    position: relative;
+    top: -250px;
 }
 
 .container{
@@ -196,6 +201,7 @@ body {
     width: 455px;
     border-top-right-radius: 15px;
     height: inherit;
+    background-position-x: -59px;
 }
 
 .grid .title {
