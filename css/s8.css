@@ -22,9 +22,9 @@ body {
     margin: auto;
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
-    font-size: 44px;
+    font-size: 64px;
     text-align: center;
-    line-height: 180px;
+    line-height: 69px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -34,7 +34,7 @@ body {
 
 .startpos span{
     position: relative;
-    top: -250px;
+    top: -170px;
 }
 
 .container{
