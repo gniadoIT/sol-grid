@@ -41,7 +41,7 @@ function setPhoto(id, driver){
     var driverName = removePolish(driver.name.toLowerCase());
     $(id).fadeOut(500, function () {
         $(id).attr("src","");
-        loadPhoto(driver.team + "_" + driverName, id);
+        loadPhoto(driverName, id);
         $(id).fadeIn(500);
     });
 }

@@ -167,13 +167,13 @@ body {
 
 .odd {
     left: 43px;
-    top: -50px
+    top: 10px
 }
 
 .even {
     float: right;
     right: 43px;
-    top: -4px;
+    top: 54px;
 }
 
 .gridplace {
@@ -207,8 +207,9 @@ body {
 .grid .title {
     font-size: 22px;
     text-align: center;
-    position: relative;
+    position: absolute;
     top: -10px;
+    left: 49px;
 }
 
 .teamBorder {

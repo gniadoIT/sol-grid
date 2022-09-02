@@ -14,16 +14,22 @@ function printRows() {
 
 function printRow(rowNum){
     setTimeout(function () {
+        $("#columnOdd").fadeOut(500);
+        $("#columnEven").fadeOut(500);
         doLeft(rowNum);
         doRight(rowNum);
         if (rowNum > 3 && rowNum < 9) {
-            move("columnOdd");
-            move("columnEven");
-            showRow(rowNum+2);
+            setTimeout(function () {
+                move("columnOdd");
+                move("columnEven");
+                showRow(rowNum + 2);
+            }, 500);
         }
         if (rowNum > 3 && rowNum < 9) {
             hideRow(rowNum - 3);
         }
+        $("#columnOdd").fadeIn(500);
+        $("#columnEven").fadeIn(500);
     }, (init + (rowNum-1)*pause)*1000);
 }
 
@@ -66,7 +72,6 @@ function doRight(rowNum){
 function move(id){
     var top = getTopProperty(id);
     var topInt = parseInt(top.slice(0, top.length - 2)) - 90;
-    $(id).css("top", "" + topInt.toString() + "px");
 }
 
 function hideRow(rowNum){
